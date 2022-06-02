@@ -1,0 +1,6 @@
+-створити папку nta_cp1 в C:\Users\{username}\.docker\
+-помістити туди файл cp1_input.csv(що містить числа, які треба розкласти)
+В терміналі:
+-docker pull jachiko/nta_cp:cp1
+-docker run -it -v "C:\Users\{username}\.docker\nta_cp1":/mnt/mydata jachiko/nta_cp:cp1
+Коли програма запитає введення шляху до csv файлу, вказати /mnt/mydata/cp1_input.csv
